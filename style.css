@@ -1,0 +1,188 @@
+/* --- Configuración General --- */
+:root {
+    --primary: #4a91e2d0;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --danger: #d9534f;
+    --bg-color: #f4f7f6;
+    --text-color: #333;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: var(--white);
+    width: 100%;
+    max-width: 600px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* --- Menú y Dropdowns --- */
+.menu-container {
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.dropbtn {
+    background-color: var(--primary);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 70%;
+    transition: background 0.3s;
+}
+
+.main-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50%;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    border-radius: 0 0 8px 8px;
+}
+
+.dropdown:hover .main-menu { display: block; }
+
+.main-menu li {
+    padding: 8px 8px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+}
+
+.main-menu li:hover { background-color: #f1f1f1; }
+
+/* Submenús laterales */
+.submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 4px 0px 4px rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    width: 50px;
+}
+
+.has-submenu:hover .submenu { display: block; }
+
+/* --- Botones de Modo --- */
+button {
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.2s;
+}
+
+button:active { transform: scale(0.98); }
+
+.btn-opciones, .btn-escritura {
+    padding: 10px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-opciones { background-color: #17a3b8c2; }
+.btn-escritura { background-color: #6710f2a4; }
+
+/* --- Buscador --- */
+.buscador-box {
+    margin: 20px 0;
+}
+
+#cajaBusqueda {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#cajaBusqueda:focus { border-color: var(--primary); }
+
+/* --- Interfaz del Juego --- */
+#game {
+    border-top: 2px solid #eee;
+    padding-top: 20px;
+}
+
+#progress-bar {
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+#fill { transition: width 0.4s ease-in-out; }
+
+#opciones-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-opcion {
+    padding: 15px;
+    background: #f8f9fa;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-opcion:hover { background: #e2e6ea; }
+
+/* --- Feedback y Estados --- */
+.correcto { background-color: #d4edda !important; color: #155724; border-color: #c3e6cb; }
+.incorrecto { background-color: #f8d7da !important; color: #721c2573; border-color: #f5c6cb; }
+
+#input-escritura {
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* --- Reporte Final --- */
+#reporte {
+    padding: 20px;
+}
+
+#final-score {
+    font-weight: bold;
+    color: var(--primary);
+}
+#botonConfiguracion {
+    display: none;
+}
