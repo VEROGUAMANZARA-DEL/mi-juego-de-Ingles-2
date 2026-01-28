@@ -735,4 +735,3 @@ window.addEventListener('pointerdown', function(event) {
     // Si tu juego tiene una función de disparar o saltar, llámala aquí:
     // saltar(); 
 });
-
