@@ -20,7 +20,8 @@ window.verbosIrregulares_VI = {
         { tipo: "VI", eng: "LEAVE", past: "LEFT", part: "LEFT", esp: "SALIR O DEJAR" },
         { tipo: "VI", eng: "PUT", past: "PUT", part: "PUT", esp: "PONER" },
         { tipo: "VI", eng: "MEAN", past: "MEANT", part: "MEANT", esp: "SIGNIFICAR" },
-        { tipo: "VI", eng: "KEEP", past: "KEPT", part: "KEPT", esp: "MANTENER" }
+        { tipo: "VI", eng: "KEEP", past: "KEPT", part: "KEPT", esp: "MANTENER" },
+
     ],
     VI2:[
         { tipo: "VI", eng: "LET", past: "LET", part: "LET", esp: "PERMITIR" },
@@ -199,6 +200,37 @@ window.verbosIrregulares_VI = {
         { tipo: "VI", eng: "WRITE", past: "WROTE", part: "WRITTEN", esp: "ESCRIBIR" },
         { tipo: "VI", eng: "READ", past: "READ", part: "READ", esp: "LEER" },
         { tipo: "VI", eng: "RUN", past: "RAN", part: "RUN", esp: "CORRER" },
+    ],
+    VI10: [
+
+        {tipo:  "VI",  eng:  "TEAR",  past:  "TORE",  part:  "TORN",  esp:  "DESGARRAR"},
+        {tipo:  "VI",  eng:  "LEAVE",  past:  "LEFT",  part:  "LEFT",  esp:  "IRSE/PARTIR"},
+        {tipo:  "VI",  eng:  "FLEE",  past:  "FLED",  part:  "FLED",  esp:  "HUIR"},
+        {tipo:  "VI",  eng:  "HURTS",  past:  "HURT",  part:  "HURT",  esp:  "DUELE"},
+        {tipo:  "VI",  eng:  "MUST / OWE",  past:  "MUST / OWED",  part:  "MUST / OWED",  esp:  "DEBER"},
+        {tipo:  "VI",  eng:  "LEAVE",  past:  "LEFT",  part:  "LEFT",  esp:  "DEJAR"},
+        {tipo:  "VI",  eng:  "BLEED",  past:  "BLED",  part:  "BLED",  esp:  "DESANGRAR"},
+        {tipo:  "VI",  eng:  "I AM",  past:  "WAS",  part:  "BEEN",  esp:  "ESTOY"},
+        {tipo:  "VI",  eng:  "FIT",  past:  "FIT",  part:  "FIT",  esp:  "ENCAJAR"},
+        {tipo:  "VI",  eng:  "RUN AGROUND",  past:  "RAN AGROUND",  part:  "RUN AGROUND",  esp:  "ENCALLAR"},
+        {tipo:  "VI",  eng:  "GET UP",  past:  "GOT UP",  part:  "GOTTEN UP",  esp:  "LEVANTATE"},
+        {tipo:  "VI",  eng:  "RIDE",  past:  "RODE",  part:  "RIDDEN",  esp:  "MONTAR"},
+        {tipo:  "VI",  eng:  "DWELL",  past:  "DWELT",  part:  "DWELT",  esp:  "MORAR"},
+        {tipo:  "VI",  eng:  "HIDE",  past:  "HID",  part:  "HIDDEN",  esp:  "OCULTAR"},
+        {tipo:  "VI",  eng:  "HEAR",  past:  "HEARD",  part:  "HEARD",  esp:  "OIR"},
+        {tipo:  "VI",  eng:  "BREAK",  past:  "BROKE",  part:  "BROKEN",  esp:  "QUEBRAR"},
+        {tipo:  "VI",  eng:  "STING",  past:  "STUNG",  part:  "STUNG",  esp:  "PICAR"},
+        {tipo:  "VI",  eng:  "BURST",  past:  "BURST",  part:  "BURST",  esp:  "REVENTAR"},
+        {tipo:  "VI",  eng:  "LIE",  past:  "LAY",  part:  "LAIN",  esp:  "ACOSTAR"},
+        {tipo:  "VI",  eng:  "BEAR",  past:  "BORE",  part:  "BORNE",  esp:  "SOPORTAR"},
+    ],
+    VI11: [
+
+        {tipo:  "VI",  eng:  "SOW",  past:  "SOWED",  part:  "SOWN",  esp:  "SEMBRAR"},
+        {tipo:  "VI",  eng:  "SHAKE",  past:  "SHOOK",  part:  "SHAKEN",  esp:  "TEMBLAR"},
+        {tipo:  "VI",  eng:  "THROW",  past:  "THREW",  part:  "THROWN",  esp:  "TIRAR"},
+        {tipo:  "VI",  eng:  "COST",  past:  "COST",  part:  "COST",  esp:  "VALER"},
+
     ]
 };
 
@@ -256,7 +288,7 @@ window.verbosRegulares_VR ={
         { tipo: "VR", eng: "ASK", esp: "PREGUNTAR" },
         { tipo: "VR", eng: "SEEM", esp: "PARECER" },
         { tipo: "VR", eng: "TALK", esp: "HABLAR" },
-        { tipo: "VR", eng: "TURN", esp: "GIRAR/VOLVER" },
+        { tipo: "VR", eng: "RETURN / COMEBACK", esp: "REGRESAR/VOLVER" },
         { tipo: "VR", eng: "START", esp: "COMENZAR" },
         { tipo: "VR", eng: "SHOW", esp: "MOSTRAR" },
         { tipo: "VR", eng: "PLAY", esp: "JUGAR" },
@@ -293,31 +325,33 @@ window.verbosRegulares_VR ={
         { tipo: "VR",  eng: "WHISPER", esp: "SUSURRAR" },
         { tipo: "VR",  eng: "TOUCH", esp: "TOCAR" },
         { tipo: "VR",  eng: "PUSH", esp: "EMPUJAR" },
-        { tipo: "VR",  eng: "PULL", esp: "TIRAR/HALAR" },
+        { tipo: "VR",  eng: "PULL", esp: "TIRAR/JALAR" },
         { tipo: "VR", eng: "WATCH", esp: "MIRAR/OBSERVAR" },
         { tipo: "VR", eng: "CLEAN", esp: "LIMPIAR" },
 
     ],
     VR5: [
-        { tipo: "VR", eng: "TAKE OFF", past: "TOOK OFF", part: "TAKEN OFF", esp: "DESPEGAR" },
-        { tipo: "VR", eng: "LAND", past: "LANDED", part: "LANDED", esp: "ATERRIZAR" },
-        { tipo: "VR", eng: "GIVE UP", past: "GAVE UP", part: "GIVEN UP", esp: "RENDIRSE" },
-        { tipo: "VR", eng: "FIND OUT", past: "FOUND OUT", part: "FOUND OUT", esp: "AVERIGUAR" },
-        { tipo: "VR", eng: "GO ON", past: "WENT ON", part: "GONE ON", esp: "CONTINUAR" },
-        { tipo: "VR", eng: "LOOK FOR", past: "LOOKED FOR", part: "LOOKED FOR", esp: "BUSCAR (ALGO PERDIDO)" },
-        { tipo: "VR", eng: "LOOK AFTER", past: "LOOKED AFTER", part: "LOOKED AFTER", esp: "CUIDAR A ALGUIEN" },
-        { tipo: "VR", eng: "TURN UP", past: "TURNED UP", part: "TURNED UP", esp: "APARECER (DE REPENTE)" },
-        { tipo: "VR", eng: "RUN OUT OF", past: "RAN OUT OF", part: "RUN OUT OF", esp: "QUEDARSE SIN (GASOLINA/TIEMPO)" },
-        { tipo: "VR", eng: "GET ALONG", past: "GOT ALONG", part: "GOT ALONG", esp: "HACERSE AMIGO/LLEVARSE BIEN" },
-        { tipo: "VR", eng: "PICK UP", past: "PICKED UP", part: "PICKED UP", esp: "RECOGER A ALGUIEN" },
-        { tipo: "VR", eng: "GIVE BACK", past: "GAVE BACK", part: "GIVEN BACK", esp: "DEVOLVER ALGO" },
-        { tipo: "VR", eng: "PUT OFF", past: "PUT OFF", part: "PUT OFF", esp: "POSPONER" },
-        { tipo: "VR", eng: "TRY ON", past: "TRIED ON", part: "TRIED ON", esp: "PROBARSE (ROPA)" },
-        { tipo: "VR", eng: "TURN DOWN", past: "TURNED DOWN", part: "TURNED DOWN", esp: "BAJAR (VOLUMEN)" },
-        { tipo: "VR", eng: "COME BACK", past: "CAME BACK", part: "COME BACK", esp: "REGRESAR" },
-        { tipo: "VR", eng: "GROW UP", past: "GREW UP", part: "GROWN UP", esp: "CRECER (MADURAR)" },
-        { tipo: "VR", eng: "DISCOVER", past: "DISCOVERED", part: "DISCOVERED", esp: "DESCUBRIR" },
-        { tipo: "VR", eng: "HANG OUT", past: "HUNG OUT", part: "HUNG OUT", esp: "SALIR CON AMIGOS" },
+        { tipo: "VR", eng: "TAKE OFF", esp: "DESPEGAR" },
+        { tipo: "VR", eng: "LAND", esp: "ATERRIZAR" },
+        { tipo: "VR", eng: "GIVE UP", esp: "RENDIRSE" },
+        { tipo: "VR", eng: "FIND OUT", esp: "AVERIGUAR" },
+        { tipo: "VR", eng: "GO ON", esp: "CONTINUAR" },
+        { tipo: "VR", eng: "LOOK FOR", esp: "BUSCAR (ALGO PERDIDO)" },
+        { tipo: "VR", eng: "LOOK AFTER", esp: "CUIDAR A ALGUIEN" },
+        { tipo: "VR", eng: "APPEAR", esp: "APARECER (DE REPENTE)" },
+        { tipo: "VR", eng: "RUN OUT OF", esp: "QUEDARSE SIN (GASOLINA/TIEMPO)" },
+        { tipo: "VR", eng: "GET ALONG", esp: "HACERSE AMIGO/LLEVARSE BIEN" },
+        { tipo: "VR", eng: "PICK UP", esp: "RECOGER A ALGUIEN" },
+        { tipo: "VR", eng: "GIVE BACK", esp: "DEVOLVER ALGO" },
+        { tipo: "VR", eng: "PUT OFF", esp: "POSPONER" },
+        { tipo: "VR", eng: "TRY ON", esp: "PROBARSE (ROPA)" },
+        { tipo: "VR", eng: "LOWER", esp: "BAJAR (VOLUMEN)" },
+        { tipo: "VR", eng: "COME BACK", esp: "REGRESAR" },
+        { tipo: "VR", eng: "GROW UP", esp: "CRECER (MADURAR)" },
+        { tipo: "VR", eng: "DISCOVER", esp: "DESCUBRIR" },
+        { tipo: "VR", eng: "HANG OUT", esp: "SALIR CON AMIGOS" },
+        {tipo:  "VR",  eng:  "NAVIGATE",  esp:  "NAVEGAR"},
+
     ],
     VR6: [
         { tipo: "VR", eng: "AGREE", esp: "ACORDAR/ESTAR DE ACUERDO" },
@@ -383,6 +417,105 @@ window.verbosRegulares_VR ={
         { tipo: "VR", eng: "SHARE", esp: "COMPARTIR" },
         { tipo: "VR", eng: "COMPETE", esp: "COMPETIR" },
         { tipo: "VR", eng: "CELEBRATE", esp: "CELEBRAR" },
+        {tipo:  "VR",  eng:  "ENCHANCE",  esp:  "MEJORAR/REALIZAR"},
+        {tipo:  "VR",  eng:  "ADDRESS",  esp:  "ABORDAR/DIRIGIRSE A"},
+        {tipo:  "VR",  eng:  "EXTINGUISH",  esp:  "EXTINGUIR"},
+
+    ],
+    VR9: [
+
+        {tipo:  "VR",  eng:  "OPTIMIZE",  esp:  "OPTIMIZAR"},
+        {tipo:  "VR",  eng:  "GUARANTEE",  esp:  "GARANTIZAR"},
+        {tipo:  "VR",  eng:  "SLAP",  esp:  "ABOFETEAR"},
+        {tipo:  "VR",  eng:  "SCRATCH",  esp:  "ARAÑAR / RASCAR"},
+        {tipo:  "VR",  eng:  "STEP",  esp:  "PISAR"},
+        {tipo:  "VR",  eng:  "MEASURE",  esp:  "MEDIR"},
+        {tipo:  "VR",  eng:  "MIND",  esp:  "MENTE/IMPORTAR"},
+        {tipo:  "VR",  eng:  "MARCH",  esp:  "MARCHAR"},
+        {tipo:  "VR",  eng:  "BRAKE",  esp:  "FRENAR"},
+        {tipo:  "VR",  eng:  "RESIST",  esp:  "RESISTIR"},
+        {tipo:  "VR",  eng:  "STAIN",  esp:  "MANCHAR"},
+        {tipo:  "VR",  eng:  "PERFORM",  esp:  "RENDIR"},
+        {tipo:  "VR",  eng:  "REST",  esp:  "DESCANSAR"},
+        {tipo:  "VR",  eng:  "DECANT",  esp:  "DECANTAR"},
+        {tipo:  "VR",  eng:  "HARM",  esp:  "DAÑAR"},
+        {tipo:  "VR",  eng:  "CONFRONT",  esp:  "ENFRENTAR"},
+        {tipo:  "VR",  eng:  "WRAP",  esp:  "ENVOLVER"},
+        {tipo:  "VR",  eng:  "FOG UP",  esp:  "EMPAÑAR"},
+        {tipo:  "VR",  eng:  "ENRAGE",  esp:  "ENFURECER"},
+
+    ],
+    VR10: [
+
+        {tipo:  "VR",  eng:  "DELIVER",  esp:  "ENTREGAR"},
+        {tipo:  "VR",  eng:  "EMIGRATED",  esp:  "EMIGRÓ"},
+        {tipo:  "VR",  eng:  "EXCITE",  esp:  "EXCITAR"},
+        {tipo:  "VR",  eng:  "DIRTY",  esp:  "ENSUCIAR"},
+        {tipo:  "VR",  eng:  "CHAIN",  esp:  "ENCADENAR"},
+        {tipo:  "VR",  eng:  "DECEIVE",  esp:  "ENGAÑAR"},
+        {tipo:  "VR",  eng:  "LOCK UP",  esp:  "ENCERRAR"},
+        {tipo:  "VR",  eng:  "MISS / LACK",  esp:  "FALTAR"},
+        {tipo:  "VR",  eng:  "FORCE",  esp:  "FORZAR / FUERZA"},
+        {tipo:  "VR",  eng:  "FAIL",  esp:  "FALLAR"},
+        {tipo:  "VR",  eng:  "FLOW",  esp:  "FLUIR"},
+        {tipo:  "VR",  eng:  "ANNOY",  esp:  "FASTIDIAR"},
+        {tipo:  "VR",  eng:  "GERMINATES",  esp:  "GERMINA"},
+        {tipo:  "VR",  eng:  "HUMILIATE",  esp:  "HUMILLAR"},
+        {tipo:  "VR",  eng:  "INHABITS",  esp:  "HABITA"},
+        {tipo:  "VR",  eng:  "INHERITS",  esp:  "HEREDA"},
+        {tipo:  "VR",  eng:  "IMPACT",  esp:  "IMPACTAR"},
+        {tipo:  "VR",  eng:  "PREVENT",  esp:  "IMPIDAMOS"},
+        {tipo:  "VR",  eng:  "ILLUMINATES",  esp:  "ILUMINA"},
+        {tipo:  "VR",  eng:  "SACRIFICE",  esp:  "INMOLARSE"},
+
+    ],
+    VR11: [
+
+        {tipo:  "VR",  eng:  "JUDGE",  esp:  "JUZGAR"},
+        {tipo:  "VR",  eng:  "FILL",  esp:  "LLENAR"},
+        {tipo:  "VR",  eng:  "BARK",  esp:  "LADRAR"},
+        {tipo:  "VR",  eng:  "DESERVE",  esp:  "MERECER"},
+        {tipo:  "VR",  eng:  "MIX",  esp:  "MEZCLAR"},
+        {tipo:  "VR",  eng:  "MOVES",  esp:  "MUEVE"},
+        {tipo:  "VR",  eng:  "BEG",  esp:  "MENDIGAR"},
+        {tipo:  "VR",  eng:  "WANE",  esp:  "MENGUAR"},
+        {tipo:  "VR",  eng:  "DARKEN",  esp:  "OSCURECER"},
+        {tipo:  "VR",  eng:  "HATE",  esp:  "ODIAR"},
+        {tipo:  "VR",  eng:  "ANOINT",  esp:  "UNGIR"},
+        {tipo:  "VR",  eng:  "PLANT",  esp:  "PLANTAR"},
+        {tipo:  "VR",  eng:  "PERSISTS",  esp:  "PERSISTE"},
+        {tipo:  "VR",  eng:  "PROTECT",  esp:  "PROTEGER"},
+        {tipo:  "VR",  eng:  "WEIGH / SORROW",  esp:  "PESAR"},
+        {tipo:  "VR",  eng:  "REVEAL",  esp:  "REVELAR"},
+        {tipo:  "VR",  eng:  "RECOGNIZE",  esp:  "RECONOCER"},
+        {tipo:  "VR",  eng:  "RESONATE / ECHO",  esp:  "RESONAR"},
+        {tipo:  "VR",  eng:  "RUMBLE / BOOM",  esp:  "RETUMBAR"},
+
+    ],
+    VR12: [
+
+        {tipo:  "VR",  eng:  "RESURRECT / REVIVE",  esp:  "RESUCITAR"},
+        {tipo:  "VR",  eng:  "OVERFLOW",  esp:  "REBOSAR"},
+        {tipo:  "VR",  eng:  "PRAY",  esp:  "RESAR"},
+        {tipo:  "VR",  eng:  "RECEDE",  esp:  "RETROCEDER"},
+        {tipo:  "VR",  eng:  "SUFFER",  esp:  "SUFRIR"},
+        {tipo:  "VR",  eng:  "FOLLOW",  esp:  "SEGUIR"},
+        {tipo:  "VR",  eng:  "SERVE",  esp:  "SERVIR"},
+        {tipo:  "VR",  eng:  "SWEAT",  esp:  "SUDOR"},
+        {tipo:  "VR",  eng:  "SATIATE / QUENCH",  esp:  "SACIAR"},
+        {tipo:  "VR",  eng:  "SEAL",  esp:  "SELLAR"},
+        {tipo:  "VR",  eng:  "HEAL",  esp:  "SANAR"},
+        {tipo:  "VR",  eng:  "TREMBLE",  esp:  "TIEMBLA"},
+        {tipo:  "VR",  eng:  "TURN",  esp:  "DOBLAR / GIRAR"},
+        {tipo:  "VR",  eng:  "TRAFFIC",  esp:  "TRAFICAR"},
+        {tipo:  "VR",  eng:  "SWALLOW",  esp:  "TRAGAR"},
+        {tipo:  "VR",  eng:  "TREAT / TRY",  esp:  "TRATAR"},
+        
+    ],
+    VR13: [
+
+
+
     ]
 };
 
@@ -423,7 +556,7 @@ window.sustantivos_S = {
         { tipo: "S",   eng: "SKY", esp: "CIELO" },
         { tipo: "S",   eng: "EMBERS", esp: "BRASAS" },
         { tipo: "S",   eng: "BOAT", esp: "BARCO" },
-        { tipo: "S", eng: "FOOL", esp: "BOBO/NECIO" },
+        { tipo: "S",   eng: "FOOL", esp: "BOBO/NECIO" },
         { tipo: "S",   eng: "TRASH", esp: "BASURA" },
         { tipo: "S",   eng: "ARMOR", esp: "BLINDAJE/ARMADURA" },
         { tipo: "S",   eng: "BATTLE", esp: "BATALLA" },
@@ -451,7 +584,7 @@ window.sustantivos_S = {
         { tipo: "S",  eng: "LETTER", esp: "CARTA/LETRA" },
         { tipo: "S",  eng: "SINS", esp: "PECADOS" },
         { tipo: "S",  eng: "MEADOWS", esp: "PRADERAS" },
-        { tipo: "S",  eng: "GIFT", esp: "REGALO" },
+        { tipo: "S",  eng: "GIFT", esp: "REGALO / DON" },
         { tipo: "S",  eng: "BREEZE", esp: "BRISA" },
         { tipo: "S",  eng: "MAMMALS", esp: "MAMÍFEROS" },
         { tipo: "S",  eng: "SELFISHNESS", esp: "EGOÍSMO" },
@@ -470,7 +603,7 @@ window.sustantivos_S = {
         { tipo: "S", eng: "SNOW", esp: "NIEVE" },
         { tipo: "S", eng: "YEAR", esp: "AÑO" },
         { tipo: "S", eng: "FOG", esp: "NIEBLA" },
-        { tipo: "S", eng: "LIGHTNING", esp: "RAYO" },
+        { tipo: "S", eng: "LIGHTNING", esp: "RAYO / RELÁMPAGO" },
         { tipo: "S", eng: "WEEK", esp: "SEMANA" },
         { tipo: "S", eng: "MONTH", esp: "MES" },
         { tipo: "S", eng: "COMPUTER", esp: "COMPUTADORA" },
@@ -548,7 +681,7 @@ window.sustantivos_S = {
         { tipo: "S", eng: "RING", esp: "ANILLO" },
         { tipo: "S", eng: "GLASSES", esp: "GAFAS" }  
     ],
-    S9: [
+    S8: [
         { tipo: "S", eng: "HEAD", esp: "CABEZA" },
         { tipo: "S", eng: "FACE", esp: "CARA" },
         { tipo: "S", eng: "EYE", esp: "OJO" },
@@ -570,7 +703,7 @@ window.sustantivos_S = {
         { tipo: "S", eng: "TOE", esp: "DEDO (PIE)" },
         { tipo: "S", eng: "SKIN", esp: "PIEL" }
     ],
-    S10: [
+    S9: [
         { tipo: "S", eng: "HAMMER", esp: "MARTILLO" },
         { tipo: "S", eng: "NAIL", esp: "CLAVO" },
         { tipo: "S", eng: "SCREW", esp: "TORNILLO" },
@@ -582,7 +715,7 @@ window.sustantivos_S = {
         { tipo: "S", eng: "METAL", esp: "METAL" },
         { tipo: "S", eng: "STONE", esp: "PIEDRA" },
         { tipo: "S", eng: "BRICK", esp: "LADRILLO" },
-        { tipo: "S", eng: "WALL", esp: "PARED" },
+        { tipo: "S", eng: "WALL", esp: "PARED/MURO" },
         { tipo: "S", eng: "ROOF", esp: "TECHO" },
         { tipo: "S", eng: "FLOOR", esp: "SUELO/PISO" },
         { tipo: "S", eng: "STAIRS", esp: "ESCALERAS" },
@@ -592,7 +725,7 @@ window.sustantivos_S = {
         { tipo: "S", eng: "WIRE", esp: "ALAMBRE/CABLE" },
         {tipo: "S", eng: "PARTY", esp: "FIESTA"},
     ],
-    S11: [
+    S10: [
         { tipo: "S", eng: "SUITCASE", esp: "MALETA" },
         { tipo: "S", eng: "TICKET", esp: "BOLETO/ENTRADA" },
         { tipo: "S", eng: "PASSPORT", esp: "PASAPORTE" },
@@ -614,7 +747,7 @@ window.sustantivos_S = {
         { tipo: "S", eng: "GUEST", esp: "INVITADO/HUÉSPED" },
         { tipo: "S", eng: "HOST", esp: "ANFITRIÓN" },
     ],
-    S12: [
+    S11: [
         { tipo: "S", eng: "MOUNTAIN", esp: "MONTAÑA" },
         { tipo: "S", eng: "RIVER", esp: "RÍO" },
         { tipo: "S", eng: "LAKE", esp: "LAGO" },
@@ -636,7 +769,7 @@ window.sustantivos_S = {
         { tipo: "S", eng: "GROUND", esp: "TIERRA/SUELO (NATURALEZA)" },
         {tipo: "S", eng: "MONEY", esp: "DINERO"},
     ],
-    S13: [
+    S12: [
         { tipo: "S", eng: "LAW", esp: "LEY" },
         { tipo: "S", eng: "JUDGE", esp: "JUEZ" },
         { tipo: "S", eng: "LAWYER", esp: "ABOGADO" },
@@ -658,7 +791,7 @@ window.sustantivos_S = {
         { tipo: "S", eng: "FABRIC", esp: "TELA" },
         { tipo: "S", eng: "FREEDOM", esp: "LIBERTAD" },
     ],
-    S14: [
+    S13: [
         { tipo: "S", eng: "THIEF", esp: "LADRÓN" },
         { tipo: "S", eng: "SUSPECT", esp: "SOSPECHOSO" },
         { tipo: "S", eng: "CLASSROOM", esp: "CLASE/AULA" },
@@ -680,12 +813,201 @@ window.sustantivos_S = {
         { tipo: "S", eng: "PEOPLE", esp: "GENTE" },
         { tipo: "S", eng: "POWER", esp: "PODER" },
     ],
-    S15: [
+    S14: [
 
         {tipo: "S", eng: "GARDEN", esp: "JARDIN"},
+        {tipo:  "S",  eng:  "SYSTEM",  esp:  "SISTEMA"},
+        {tipo:  "S",  eng:  "INTERFACE",  esp:  "INTERFAZ"},
+        {tipo:  "S",  eng:  "DECEPTION",  esp:  "ENGAÑO"},
+        {tipo:  "S",  eng:  "CHEEK",  esp:  "MEJILLA"},
+        {tipo:  "S",  eng:  "CLAW",  esp:  "GARRA"},
+        {tipo:  "S",  eng:  "INNOCENCE",  esp:  "INOCENCIA"},
+        {tipo:  "S",  eng:  "TOLL",  esp:  "PEAJE"},
+        {tipo:  "S",  eng:  "FIEND",  esp:  "FANATICO/DEMONIO"},
+        {tipo:  "S",  eng:  "RELIEF",  esp:  "ALIVIO"},
+        {tipo:  "S",  eng:  "EVERYONE",  esp:  "TODOS"},
+        {tipo:  "S",  eng:  "BRAKE",  esp:  "FRENO"},
+        {tipo:  "S",  eng:  "MARCH / PARADE",  esp:  "MARCHA/DESFILE"},
+        {tipo:  "S",  eng:  "FATHOMS",  esp:  "BRAZAS (MEDIDA)"},
+        {tipo:  "S",  eng:  "BREASTSTROKE",  esp:  "BRAZA (NATACION)"},
+        {tipo:  "S",  eng:  "GLANCE / LOOK",  esp:  "MIRADA"},
+        {tipo:  "S",  eng:  "SOUL",  esp:  "ALMA"},
+        {tipo:  "S",  eng:  "STAIN /SPOT",  esp:  "MANCHA"},
+        {tipo:  "S",  eng:  "SOUND",  esp:  "SON (MUSICA)"},
+        {tipo:  "S",  eng:  "DRUM",  esp:  "TAMBOR"},
+    ],
+    S15: [
         
+        {tipo:  "S",  eng:  "CRACK",  esp:  "GRIETA"},
+        {tipo:  "S",  eng:  "RETAIL",  esp:  "COMERCIO"},
+        {tipo:  "S",  eng:  "SMITHEREENS",  esp:  "AÑICOS"},
+        {tipo:  "S",  eng:  "GLASS / CRYSTAL",  esp:  "CRISTAL"},
+        {tipo:  "S",  eng:  "NEEDLE",  esp:  "AGUJA"},
+        {tipo:  "S",  eng:  "ICE",  esp:  "HIELO"},
+        {tipo:  "S",  eng:  "LIGHTHOUSE",  esp:  "FARO"},
+        {tipo:  "S",  eng:  "REST",  esp:  "RESTO"},
+        {tipo:  "S",  eng:  "OTHERS",  esp:  "DEMÁS"},
+        {tipo:  "S",  eng:  "OWNER",  esp:  "DUEÑO"},
+        {tipo:  "S",  eng:  "BREAK",  esp:  "DESCANSO"},
+        {tipo:  "S",  eng:  "DISTRACTION",  esp:  "DISTRACCIÓN"},
+        {tipo:  "S",  eng:  "MOURNING",  esp:  "DUELO"},
+        {tipo:  "S",  eng:  "DOLPHIN",  esp:  "DELFÍN"},
+        {tipo:  "S",  eng:  "CONTEMPT",  esp:  "DESPRECIO"},
+        {tipo:  "S",  eng:  "DEFEAT",  esp:  "DERROTA"},
+        {tipo:  "S",  eng:  "DYNAMITE",  esp:  "DINAMITA"},
+        {tipo:  "S",  eng:  "EMPEROR",  esp:  "EMPERADOR"},
+        {tipo:  "S",  eng:  "ENVY",  esp:  "ENVIDIA"},
+        {tipo:  "S",  eng:  "HOPE",  esp:  "ESPERANZA"},
+
+    ],
+    S16: [
+
+        {tipo:  "S",  eng:  "MIRROR",  esp:  "ESPEJO"},
+        {tipo:  "S",  eng:  "ECHO",  esp:  "ECO"},
+        {tipo:  "S",  eng:  "SCHEME / OUTLINE",  esp:  "ESQUEMA"},
+        {tipo:  "S",  eng:  "FRIGHT",  esp:  "ESPANTO"},
+        {tipo:  "S",  eng:  "EGO",  esp:  "EGO"},
+        {tipo:  "S",  eng:  "ARMY",  esp:  "EJERCITO"},
+        {tipo:  "S",  eng:  "SWORD",  esp:  "ESPADA"},
+        {tipo:  "S",  eng:  "FIRE",  esp:  "FUEGO"},
+        {tipo:  "S",  eng:  "STRENGTH",  esp:  "FUERZA"},
+        {tipo:  "S",  eng:  "INVOICE",  esp:  "FACTURA"},
+        {tipo:  "S",  eng:  "PHASE",  esp:  "FASE"},
+        {tipo:  "S",  eng:  "SOURCES",  esp:  "FUENTES"},
+        {tipo:  "S",  eng:  "EDGE",  esp:  "FILO"},
+        {tipo:  "S",  eng:  "GUARD",  esp:  "GUARDIA"},
+        {tipo:  "S",  eng:  "DESIRE / WANT",  esp:  "GANAS"},
+        {tipo:  "S",  eng:  "BLOWS / HITS",  esp:  "GOLPES"},
+        {tipo:  "S",  eng:  "SEAGULL",  esp:  "GAVIOTA"},
+        {tipo:  "S",  eng:  "SCREAM / CRY",  esp:  "GRITO"},
+        {tipo:  "S",  eng:  "GASOLINE",  esp:  "GASOLINA"},
+        {tipo:  "S",  eng:  "HORROR",  esp:  "HORROR"},
+
+    ],
+    S17: [
+
+        {tipo:  "S",  eng:  "BONFIRE",  esp:  "HOGUERA"},
+        {tipo:  "S",  eng:  "FEATS",  esp:  "HAZAÑAS"},
+        {tipo:  "S",  eng:  "HONOR",  esp:  "HONOR"},
+        {tipo:  "S",  eng:  "EMPIRE",  esp:  "IMPERIO"},
+        {tipo:  "S",  eng:  "HOME",  esp:  "HOGAR"},
+        {tipo:  "S",  eng:  "WRATH / IRE",  esp:  "IRA"},
+        {tipo:  "S",  eng:  "INTEREST",  esp:  "INTERÉS"},
+        {tipo:  "S",  eng:  "INERTIA",  esp:  "INERCIA"},
+        {tipo:  "S",  eng:  "OATH",  esp:  "JURAMENTO"},
+        {tipo:  "S",  eng:  "PRODIGY",  esp:  "PRODIGIO"},
+        {tipo:  "S",  eng:  "RAIN",  esp:  "LLUVIA"},
+        {tipo:  "S",  eng:  "LAMENT / MOAN",  esp:  "LAMENTO"},
+        {tipo:  "S",  eng:  "LEADER",  esp:  "LIDER"},
+        {tipo:  "S",  eng:  "BED",  esp:  "LECHO"},
+        {tipo:  "S",  eng:  "TEAR",  esp:  "LÁGRIMA"},
+        {tipo:  "S",  eng:  "MESS",  esp:  "LIO"},
+        {tipo:  "S",  eng:  "HALF",  esp:  "MITAD"},
+        {tipo:  "S",  eng:  "MASTER",  esp:  "MAESTRO"},
+        {tipo:  "S",  eng:  "MASSES",  esp:  "MASAS"},
+        {tipo:  "S",  eng:  "WAY / MANNER",  esp:  "MANERA"},
+
+    ],
+    S18: [
+
+        {tipo:  "S",  eng:  "CURSE",  esp:  "MALDICIÓN"},
+        {tipo:  "S",  eng:  "MARCH",  esp:  "MARCHA"},
+        {tipo:  "S",  eng:  "BUTTERFLY",  esp:  "MARIPOSA"},
+        {tipo:  "S",  eng:  "MERCY",  esp:  "MISERICORDIA"},
+        {tipo:  "S",  eng:  "MANTLE / CLOAK",  esp:  "MANTO"},
+        {tipo:  "S",  eng:  "MORAL",  esp:  "MORAL"},
+        {tipo:  "S",  eng:  "DISCOMFORT",  esp:  "MALESTAR"},
+        {tipo:  "S",  eng:  "EVIL / BAD",  esp:  "MAL"},
+        {tipo:  "S",  eng:  "MIND",  esp:  "MENTE"},
+        {tipo:  "S",  eng:  "GOAL",  esp:  "META"},
+        {tipo:  "S",  eng:  "MARK / BRAND",  esp:  "MARCA"},
+        {tipo:  "S",  eng:  "CLOUD",  esp:  "NUBE"},
+        {tipo:  "S",  eng:  "PRAYER / SENTENCE",  esp:  "ORACIÓN"},
+        {tipo:  "S",  eng:  "DARKNESS",  esp:  "OSCURIDAD"},
+        {tipo:  "S",  eng:  "OBEDIENCE",  esp:  "OBEDIENCIA"},
+        {tipo:  "S",  eng:  "WORKS / DEEDS",  esp:  "OBRAS"},
+        {tipo:  "S",  eng:  "DEATH / DEMISE",  esp:  "OBITO"}, 
+        {tipo:  "S",  eng:  "SHEEP",  esp:  "OVEJA"},
+        {tipo:  "S",  eng:  "OBSTACLE",  esp:  "OBSTÁCULO"},
+        {tipo:  "S",  eng:  "OXYGEN",  esp:  "OXIGENO"},
+    ],
+    S19: [
+
+        {tipo:  "S",  eng:  "UNION",  esp:  "UNIÓN"},
+        {tipo:  "S",  eng:  "PULSE / WRIST",  esp:  "PULSO"},
+        {tipo:  "S",  eng:  "PERMISSION / PERMIT",  esp:  "PERMISO"},
+        {tipo:  "S",  eng:  "LUNGS",  esp:  "PULMONES"},
+        {tipo:  "S",  eng:  "DEPARTURES",  esp:  "PARTIR (SALIR EJM BUS)"},
+        {tipo:  "S",  eng:  "PAUSE",  esp:  "PAUSA"},
+        {tipo:  "S",  eng:  "DOVE / PIGEON",  esp:  "PALOMA"},
+        {tipo:  "S",  eng:  "PIECE",  esp:  "PEDAZO / TROZO"},
+        {tipo:  "S",  eng:  "PALADIN / CHAMPION",  esp:  "PALADIN"},
+        {tipo:  "S",  eng:  "BEARER / CARRIER",  esp:  "PORTADOR"},
+        {tipo:  "S",  eng:  "PERFUME / SCENT",  esp:  "PERFUME"},
+        {tipo:  "S",  eng:  "MEADOW / PRAIRIE",  esp:  "PRADERA"},
+        {tipo:  "S",  eng:  "PASTOR / SHEPHERD",  esp:  "PASTOR"},
+        {tipo:  "S",  eng:  "MERCY / PITY",  esp:  "PIEDAD"},
+        {tipo:  "S",  eng:  "PAIR / EVEN",  esp:  "PAR"},
+        {tipo:  "S",  eng:  "HURRY / RUSH",  esp:  "PRISA"},
+        {tipo:  "S",  eng:  "WELL",  esp:  "POZO"},
+        {tipo:  "S",  eng:  "PAPER / ROLE",  esp:  "PAPEL"},
+        {tipo:  "S",  eng:  "WEIGHT",  esp:  "PESO"},
+        {tipo:  "S",  eng:  "SOUND / RHYTHM",  esp:  "SON (MÚSICA)"},
+
+
+    ],
+    S20: [
+
+        {tipo:  "S",  eng:  "RIFLE",  esp:  "RIFLE"},
+        {tipo:  "S",  eng:  "SCRAP",  esp:  "RETAL"},
+        {tipo:  "S",  eng:  "REVOLUTION",  esp:  "REVOLUCIÓN"},
+        {tipo:  "S",  eng:  "SCRATCHES",  esp:  "RASGUÑOS"},
+        {tipo:  "S",  eng:  "ROCK",  esp:  "ROCA"},
+        {tipo:  "S",  eng:  "ROAR",  esp:  "RUGIDO"},
+        {tipo:  "S",  eng:  "FLOCK / HERD",  esp:  "REBAÑO"},
+        {tipo:  "S",  eng:  "REFLECTION",  esp:  "REFLEJO"},
+        {tipo:  "S",  eng:  "LAUGHTER",  esp:  "RISAS"},
+        {tipo:  "S",  eng:  "BACKREST / SUPPORT",  esp:  "RESPALDO"},
+        {tipo:  "S",  eng:  "REVERSE / BACKHAND",  esp:  "REVES"},
+        {tipo:  "S",  eng:  "RAGE / RABIES",  esp:  "RABIA"},
+        {tipo:  "S",  eng:  "PATH / PATHWAY",  esp:  "SENDA / SENDERO"},
+        {tipo:  "S",  eng:  "LORD / SIR",  esp:  "SEÑOR"},
+        {tipo:  "S",  eng:  "GROUND / FLOOR",  esp:  "SUELO"},
+        {tipo:  "S",  eng:  "PRIDE / ARROGANCE",  esp:  "SOBERBIA"},
+        {tipo:  "S",  eng:  "SENSATION",  esp:  "SENSACIÓN"},
+        {tipo:  "S",  eng:  "EXCESS",  esp:  "SOBRA"},
+        {tipo:  "S",  eng:  "SENSE / MEANING",  esp:  "SENTIDO"}, 
+        {tipo:  "S",  eng:  "FOLLOWER",  esp:  "SEGUIDOR"},
         
     ],
+    S21: [
+
+        {tipo:  "S",  eng:  "PRIEST",  esp:  "SACERDOTE"},
+        {tipo:  "S",  eng:  "SUM / ADDITION",  esp:  "SUMA"},
+        {tipo:  "S",  eng:  "SHADOW",  esp:  "SOMBRA"},
+        {tipo:  "S",  eng:  "SIGN",  esp:  "SEÑAL"},
+        {tipo:  "S",  eng:  "TAPESTRY",  esp:  "TAPIZ"},
+        {tipo:  "S",  eng:  "TRENCHE",  esp:  "TRINCHERA"},
+        {tipo:  "S",  eng:  "TYRANNY",  esp:  "TIRANÍA"},
+        {tipo:  "S",  eng:  "THRONE",  esp:  "TRONO"},
+        {tipo:  "S",  eng:  "TERRITORY",  esp:  "TERRITORIO"},
+        {tipo:  "S",  eng:  "TRANSFORMATION",  esp:  "TRANSFORMACIÓN"},
+        {tipo:  "S",  eng:  "TOXICITY",  esp:  "TOXICIDAD"},
+        {tipo:  "S",  eng:  "THUNDER",  esp:  "TRUENO"},
+        {tipo:  "S",  eng:  "VALUE / COURAGE",  esp:  "VALOR"},
+        {tipo:  "S",  eng:  "WILL",  esp:  "VOLUNTAD"},
+        {tipo:  "S",  eng:  "TIMES",  esp:  "VECES"},
+        {tipo:  "S",  eng:  "LOBBY / HALL",  esp:  "VESTÍBULO"},
+        {tipo:  "S",  eng:  "RODS / STICKS",  esp:  "VARA"},
+        {tipo:  "S",  eng:  "POISON",  esp:  "VENENO"},
+        {tipo:  "S",  eng:  "WIND",  esp:  "VIENTO"},
+        {tipo:  "S",  eng:  "CANDLE / SAIL",  esp:  "VELA"},
+
+    ],
+    S22: [
+
+        
+    ]
 };
 window.adjetivos_A = {
 
@@ -850,6 +1172,66 @@ window.adjetivos_A = {
     A8: [
         { tipo: "A", eng:  "EMPATHETIC",  esp:  "EMPÁTICO"},
         { tipo: "A", eng:  "INNOVATIVE",  esp:  "INNOVADOR"},
+        {tipo:  "A",  eng:  "GLAD",  esp:  "CONTENTO / ALEGRE"},
+        {tipo:  "A",  eng:  "BESIDE",  esp:  "AL LADO DE / JUNTO A"},
+        {tipo:  "A",  eng:  "INSIGHFUL",  esp:  "PERSPICAZ/ESCLARECEDOR"},
+        {tipo:  "A",  eng:  "CONCISE",  esp:  "CONCISO/BREVE"},
+        {tipo:  "A",  eng:  "AUTONOMOUS",  esp:  "AUTÓNOMO"},
+        {tipo:  "A",  eng:  "FUNCTIONAL",  esp:  "FUNCIONAL"},
+        {tipo:  "A",  eng:  "HOPELESS",  esp:  "DESAHUCIADO"},
+        {tipo:  "A",  eng:  "LATELY",  esp:  "ULTIMAMENTE"},
+        {tipo:  "A",  eng:  "SACRED / HOLY",  esp:  "SAGRADO"},
+        {tipo:  "A",  eng:  "ROTTEN",  esp:  "PODRIDO"},
+        {tipo:  "A",  eng:  "WHOLE / ENTIRE",  esp:  "ENTERO"},
+        {tipo:  "A",  eng:  "STANDING",  esp:  "DE PIE"},
+        {tipo:  "A",  eng:  "TORN",  esp:  "DESGARRADA"},
+        {tipo:  "A",  eng:  "DIFFICULT",  esp:  "DIFICIL"},
+        {tipo:  "A",  eng:  "CLUELESS",  esp:  "DESPISTADO"},
+        {tipo:  "A",  eng:  "DISGUISED",  esp:  "DISFRAZADO"},
+        {tipo:  "A",  eng:  "ON / LIT",  esp:  "ENCENDIDO"},
+        {tipo:  "A",  eng:  "STARRY",  esp:  "ESTRELLADO"},
+        
+    ],
+    A9: [
+        
+        {tipo:  "A",  eng:  "UPRIGHT",  esp:  "ERGUIDO"},
+        {tipo:  "A",  eng:  "ETERNAL",  esp:  "ETERNA"},
+        {tipo:  "A",  eng:  "FLOWING",  esp:  "FLUYENDO"},
+        {tipo:  "A",  eng:  "FIRM",  esp:  "FIRME"},
+        {tipo:  "A",  eng:  "FAITHFUL",  esp:  "FIEL"},
+        {tipo:  "A",  eng:  "FORGED",  esp:  "FORJADO"},
+        {tipo:  "A",  eng:  "FED UP",  esp:  "HARTO"},
+        {tipo:  "A",  eng:  "SUNKEN",  esp:  "HUNDIDO"},
+        {tipo:  "A",  eng:  "IMPERIAL",  esp:  "IMPERIAL"},
+        {tipo:  "A",  eng:  "INVINCIBLE",  esp:  "INVENCIBLE"},
+        {tipo:  "A",  eng:  "INHIBITED",  esp:  "INHIBIDO"},
+        {tipo:  "A",  eng:  "UNSHAKEABLE",  esp:  "INQUEBRANTABLE"},
+        {tipo:  "A",  eng:  "FOOLISH / STUPID",  esp:  "NECIO"},
+        {tipo:  "A",  eng:  "HARMFUL / NOXIOUS",  esp:  "NOCIVO"},
+        {tipo:  "A",  eng:  "DEEP",  esp:  "PROFUNDO"},
+        {tipo:  "A",  eng:  "PROSTRATE / BEDRIDDEN",  esp:  "POSTRAR"},
+        {tipo:  "A",  eng:  "OWN",  esp:  "PROPIO"},
+        {tipo:  "A",  eng:  "BORROWED",  esp:  "PRESTADO"},
+        {tipo:  "A",  eng:  "TWISTED",  esp:  "RETORCIDO"},
+        {tipo:  "A",  eng:  "LONELY /SOLITARY",  esp:  "SOLITARIO"},
+        
+    ],
+    A10: [
+
+        {tipo:  "A",  eng:  "LOOSE",  esp:  "SUELTO"},
+        {tipo:  "A",  eng:  "SINCERE",  esp:  "SINCERO"},
+        {tipo:  "A",  eng:  "ALONE",  esp:  "SOLO (SIN NADIE)"},
+        {tipo:  "A",  eng:  "SUICIDAL / SUICIDE",  esp:  "SUICIDA"},
+        {tipo:  "A",  eng:  "SYMBOLIC",  esp:  "SIMBÓLICO"},
+        {tipo:  "A",  eng:  "CLUMSY / AWKWARD",  esp:  "TORPE"},
+        {tipo:  "A",  eng:  "TENSE",  esp:  "TENSO"},
+        {tipo:  "A",  eng:  "TENUOUS / FAINT",  esp:  "TENUE"},
+        {tipo:  "A",  eng:  "CALM / QUIET",  esp:  "TRANQUILA"},
+        {tipo:  "A",  eng:  "TOXIC",  esp:  "TÓXICO"},
+        {tipo:  "A",  eng:  "TEMPERATE / MILD",  esp:  "TEMPLADO"},
+        {tipo:  "A",  eng:  "SEVERAL / VARIOUS",  esp:  "VARIOS"},
+
+
     ]
 };
 
@@ -917,6 +1299,9 @@ window.lenguajeInformal_LI = {
         { tipo: "LI", eng: "VIBES", esp: "BUENA VIBRA / ENERGÍA" },
         { tipo: "LI", eng: "BETS", esp: "ACEPTO EL RETO" },
         { tipo: "LI", eng: "FINNA", esp: "ESTOY A PUNTO DE" },
+        {tipo:  "LI",  eng:  "SOME",  esp:  "UNOS / ALGUNOS"},
+        {tipo:  "LI",  eng:  "WHILE",  esp:  "MIENTRAS"},
+        {tipo:  "LI",  eng:  "ONLY",  esp:  "SOLO (SOLAMENTE)"},
     ],
     
 };
@@ -991,5 +1376,26 @@ window.lenguajeFormal_LF = {
     ],
     LF4:[
         
-    ]
+        {tipo:  "LF",  eng:  "WE'LL STILL HAVE EACH OTHER",  esp:  "TODAVIA NOS TENDREMOS EL UNO AL OTRO"},
+        {tipo:  "LF",  eng:  "NOTHING'S GONNA STOP US NOW",  esp:  "NADA NOS VA A DETENER AHORA"},
+        {tipo:  "LF",  eng:  "WHATEVER IT TAKES",  esp:  "CUESTE LO QUE CUESTE"},
+        {tipo:  "LF",  eng:  "STANDING STRONG FOREVER",  esp:  "MANTENIENDONOS FUERTES PARA SIEMPRE"},
+        {tipo:  "LF",  eng:  "BEHIND",  esp:  "DETRÁS"}, 
+        {tipo:  "LF",  eng:  "TOWARDS",  esp:  "HACIA"},
+        {tipo:  "LF",  eng:  "JUSTLY",  esp:  "JUSTAMENTE"},
+        {tipo:  "LF",  eng:  "BREAK FREE",  esp:  "LIBERARSE"},
+        {tipo:  "LF",  eng:  "IN THE MIDDLE OF",  esp:  "EN MEDIO DE"},
+        {tipo:  "LF",  eng:  "SEES ME",  esp:  "ME VE"},
+        {tipo:  "LF",  eng:  "QUICK FUSE",  esp:  "MECHA RÁPIDA"},
+        {tipo:  "LF",  eng:  "I DON'T CARE",  esp:  "ME DA IGUAL"},
+        {tipo:  "LF",  eng:  "BE WORTH",  esp:  "VALER / MERECER LA PENA"},
+
+    ],
 };
+
+
+
+
+
+
+
