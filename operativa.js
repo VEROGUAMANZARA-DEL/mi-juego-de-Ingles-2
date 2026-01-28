@@ -34,7 +34,8 @@ function seleccionarLeccion(nombreLeccion) {
     const dbs = [
         window.verbosIrregulares_VI, 
         window.verbosRegulares_VR, 
-        window.sustantivos_S, 
+        window.sustantivos_S,
+        window.sustantivos_SS,  
         window.adjetivos_A, 
         window.lenguajeInformal_LI, 
         window.lenguajeFormal_LF,
@@ -302,6 +303,7 @@ function prepararDiccionario() {
         ...(typeof verbosIrregulares_VI !== 'undefined' ? verbosIrregulares_VI : {}),
         ...(typeof verbosRegulares_VR !== 'undefined' ? verbosRegulares_VR : {}),
         ...(typeof sustantivos_S !== 'undefined' ? sustantivos_S : {}),
+        ...(typeof sustantivos_SS !== 'undefined' ? sustantivos_SS : {}),
         ...(typeof adjetivos_A !== 'undefined' ? adjetivos_A : {}),
         ...(typeof lenguajeInformal_LI !== 'undefined' ? lenguajeInformal_LI : {}),
         ...(typeof lenguajeFormal_LF !== 'undefined' ? lenguajeFormal_LF : {})
@@ -587,9 +589,10 @@ function agregarPalabraDirecto() {
             "1": { t: "VI", p: "VI", v: "verbosIrregulares_VI" },
             "2": { t: "VR", p: "VR", v: "verbosRegulares_VR" },
             "3": { t: "S", p: "S", v: "sustantivos_S" },
-            "4": { t: "A", p: "A", v: "adjetivos_A" },
-            "5": { t: "LI", p: "LI", v: "lenguajeInformal_LI" },
-            "6": { t: "LF", p: "LF", v: "lenguajeFormal_LF" }
+            "4": { t: "SS", p: "SS", v: "sustantivos_SS" },
+            "5": { t: "A", p: "A", v: "adjetivos_A" },
+            "6": { t: "LI", p: "LI", v: "lenguajeInformal_LI" },
+            "7": { t: "LF", p: "LF", v: "lenguajeFormal_LF" }
         };
 
         if (!opcion || !mapeo[opcion]) {
@@ -723,3 +726,11 @@ function alternarAdmin(estado) {
     }
     console.log("Sistema de administración:", estado ? "Visible" : "Oculto");
 }
+// Esto detecta tanto el clic del mouse como el toque del dedo
+window.addEventListener('pointerdown', function(event) {
+    // Aquí pones lo que quieres que pase cuando toquen la pantalla
+    console.log("¡Pantalla tocada en la posición!", event.clientX, event.clientY);
+    
+    // Si tu juego tiene una función de disparar o saltar, llámala aquí:
+    // saltar(); 
+});
