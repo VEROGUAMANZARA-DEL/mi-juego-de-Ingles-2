@@ -678,6 +678,7 @@ const basesDeDatos = [
     { nombre: 'Irregulares VI', data: window.verbosIrregulares_VI.VI2 },
     { nombre: 'Regulares', data: window.verbosRegulares_VR },
     { nombre: 'Sustantivos', data: window.sustantivos_S },
+    { nombre: 'Sustantivos', data: window.sustantivos_SS },
     { nombre: 'Adjetivos', data: window.adjetivos_A },
     { nombre: 'Lenguaje Formal', data: window.lenguajeFormal_LF },
     { nombre: 'Lenguaje Informal', data: window.lenguajeInformal_LI },
@@ -734,3 +735,4 @@ window.addEventListener('pointerdown', function(event) {
     // Si tu juego tiene una función de disparar o saltar, llámala aquí:
     // saltar(); 
 });
+
