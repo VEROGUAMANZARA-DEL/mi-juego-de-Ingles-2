@@ -791,7 +791,11 @@ window.sustantivos_S = {
         { tipo: "S", eng: "FABRIC", esp: "TELA" },
         { tipo: "S", eng: "FREEDOM", esp: "LIBERTAD" },
     ],
-    S13: [
+    
+};
+window.sustantivos_SS = {
+
+    SS1: [
         { tipo: "S", eng: "THIEF", esp: "LADRÓN" },
         { tipo: "S", eng: "SUSPECT", esp: "SOSPECHOSO" },
         { tipo: "S", eng: "CLASSROOM", esp: "CLASE/AULA" },
@@ -813,7 +817,7 @@ window.sustantivos_S = {
         { tipo: "S", eng: "PEOPLE", esp: "GENTE" },
         { tipo: "S", eng: "POWER", esp: "PODER" },
     ],
-    S14: [
+    SS2: [
 
         {tipo: "S", eng: "GARDEN", esp: "JARDIN"},
         {tipo:  "S",  eng:  "SYSTEM",  esp:  "SISTEMA"},
@@ -836,7 +840,7 @@ window.sustantivos_S = {
         {tipo:  "S",  eng:  "SOUND",  esp:  "SON (MUSICA)"},
         {tipo:  "S",  eng:  "DRUM",  esp:  "TAMBOR"},
     ],
-    S15: [
+    SS3: [
         
         {tipo:  "S",  eng:  "CRACK",  esp:  "GRIETA"},
         {tipo:  "S",  eng:  "RETAIL",  esp:  "COMERCIO"},
@@ -860,7 +864,7 @@ window.sustantivos_S = {
         {tipo:  "S",  eng:  "HOPE",  esp:  "ESPERANZA"},
 
     ],
-    S16: [
+    SS4: [
 
         {tipo:  "S",  eng:  "MIRROR",  esp:  "ESPEJO"},
         {tipo:  "S",  eng:  "ECHO",  esp:  "ECO"},
@@ -884,7 +888,7 @@ window.sustantivos_S = {
         {tipo:  "S",  eng:  "HORROR",  esp:  "HORROR"},
 
     ],
-    S17: [
+    SS5: [
 
         {tipo:  "S",  eng:  "BONFIRE",  esp:  "HOGUERA"},
         {tipo:  "S",  eng:  "FEATS",  esp:  "HAZAÑAS"},
@@ -908,7 +912,7 @@ window.sustantivos_S = {
         {tipo:  "S",  eng:  "WAY / MANNER",  esp:  "MANERA"},
 
     ],
-    S18: [
+    SS6: [
 
         {tipo:  "S",  eng:  "CURSE",  esp:  "MALDICIÓN"},
         {tipo:  "S",  eng:  "MARCH",  esp:  "MARCHA"},
@@ -931,7 +935,7 @@ window.sustantivos_S = {
         {tipo:  "S",  eng:  "OBSTACLE",  esp:  "OBSTÁCULO"},
         {tipo:  "S",  eng:  "OXYGEN",  esp:  "OXIGENO"},
     ],
-    S19: [
+    SS7: [
 
         {tipo:  "S",  eng:  "UNION",  esp:  "UNIÓN"},
         {tipo:  "S",  eng:  "PULSE / WRIST",  esp:  "PULSO"},
@@ -956,7 +960,7 @@ window.sustantivos_S = {
 
 
     ],
-    S20: [
+    SS8: [
 
         {tipo:  "S",  eng:  "RIFLE",  esp:  "RIFLE"},
         {tipo:  "S",  eng:  "SCRAP",  esp:  "RETAL"},
@@ -980,7 +984,7 @@ window.sustantivos_S = {
         {tipo:  "S",  eng:  "FOLLOWER",  esp:  "SEGUIDOR"},
         
     ],
-    S21: [
+    SS9: [
 
         {tipo:  "S",  eng:  "PRIEST",  esp:  "SACERDOTE"},
         {tipo:  "S",  eng:  "SUM / ADDITION",  esp:  "SUMA"},
@@ -1004,7 +1008,7 @@ window.sustantivos_S = {
         {tipo:  "S",  eng:  "CANDLE / SAIL",  esp:  "VELA"},
 
     ],
-    S22: [
+    SS10: [
 
         
     ]
@@ -1392,11 +1396,4 @@ window.lenguajeFormal_LF = {
 
     ],
 };
-
-
-
-
-
-
-
 
