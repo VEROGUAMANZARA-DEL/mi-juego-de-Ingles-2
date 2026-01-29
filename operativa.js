@@ -354,8 +354,8 @@ function buscarEnDiccionario() {
 
     temporizadorBusqueda = setTimeout(() => {
         const encontrado = diccionarioGlobal.find(item => 
-            item.esp.toLowerCase().includes(consulta) || 
-            item.eng.toLowerCase().includes(consulta)
+            item.esp.toLowerCase() === (consulta) || 
+            item.eng.toLowerCase() === (consulta)
         );
 
         if (encontrado) {
@@ -735,3 +735,4 @@ window.addEventListener('pointerdown', function(event) {
     // Si tu juego tiene una función de disparar o saltar, llámala aquí:
     // saltar(); 
 });
+
