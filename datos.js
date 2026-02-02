@@ -230,6 +230,11 @@ window.verbosIrregulares_VI = {
         {tipo:  "VI",  eng:  "SHAKE",  past:  "SHOOK",  part:  "SHAKEN",  esp:  "TEMBLAR"},
         {tipo:  "VI",  eng:  "THROW",  past:  "THREW",  part:  "THROWN",  esp:  "TIRAR"},
         {tipo:  "VI",  eng:  "COST",  past:  "COST",  part:  "COST",  esp:  "VALER"},
+        {tipo:  "VI",  eng:  "HURT",  past:  "HURT",  part:  "HURT",  esp:  "HERIR / DOLER"},
+        {tipo:  "VI",  eng:  "MEET",  past:  "MET",  part:  "MET",  esp:  "QUEDAR/CITA"},
+        {tipo:  "VI",  eng:  "SHAVE",  past:  "SHAVED",  part:  "SHAVEN",  esp:  "AFEITAR"},
+        {tipo:  "VI",  eng:  "SHAVE/RAZOR",  past:  "SHAVED",  part:  "SHAVEN",  esp:  "AFEITAR"},
+        {tipo:  "VI",  eng:  "FALL IN LOVE/WIN OVER/ENAMOR",  past:  "FELL IN LOVE/WON OVER",  part:  "FALLEN IN LOVE/WON OVER",  esp:  "ENAMORAR"},
 
     ]
 };
@@ -254,7 +259,7 @@ window.verbosRegulares_VR ={
         { tipo: "VR", eng: "DROWN", esp: "AHOGARSE" },
         { tipo: "VR", eng: "STAB", esp: "APUÑALAR" },
         { tipo: "VR", eng: "THREATEN", esp: "AMENAZAR" },
-        { tipo: "VR", eng: "TIE", esp: "AMARRAR" },
+        { tipo: "VR", eng: "TIE", esp: "AMARRAR / ATAR" },
         { tipo: "VR", eng: "CROSS", esp: "ATRAVESAR" },
         { tipo: "VR", eng: "DRAG", esp: "ARRASTRAR" },
         { tipo: "VR", eng: "NEED", esp: "NECESITAR" },
@@ -310,7 +315,7 @@ window.verbosRegulares_VR ={
         
         { tipo: "VR", eng: "WANDER", esp: "DEAMBULAR" },
         { tipo: "VR", eng: "RETRIEVE", esp: "RECUPERAR" },
-        { tipo: "VR", eng: "SQUEEZE", esp: "EXPRIMIR" },
+        { tipo: "VR", eng: "SQUEEZE", esp: "APRETAR/EXPRIMIR" },
         { tipo: "VR", eng: "ACHIEVE", esp: "CONSEGUIR/LOGRAR" },
         { tipo: "VR", eng: "KILL", esp: "MATAR" },
         { tipo: "VR",  eng: "ANSWER", esp: "CONTESTAR" },
@@ -514,7 +519,41 @@ window.verbosRegulares_VR ={
     ],
     VR13: [
 
+        {tipo:  "VR",  eng:  "AMAR",  esp:  "LOVE"},
+        {tipo:  "VR",  eng:  "INHERITED",  esp:  "HEREDAR"},
+        {tipo:  "VR",  eng:  "INJURE",  esp:  "HERIR/LESIONAR"},
+        {tipo:  "VR",  eng:  "WOUND",  esp:  "HERIR/ARMA"},
+        {tipo:  "VR",  eng:  "STAY",  esp:  "QUEDARSE"},
+        {tipo:  "VR",  eng:  "LOOK / FIT",  esp:  "QUEDAR BIEN"},
+        {tipo:  "VR",  eng:  "LIE",  esp:  "MENTIR"},
+        {tipo:  "VR",  eng:  "OPPRESS",  esp:  "OPRIMIR"},
+        {tipo:  "VR",  eng:  "PRESS / PUSH",  esp:  "OPRIMIR (BOTÓN)"},
+        {tipo:  "VR",  eng:  "LOVE",  esp:  "AMAR"},
+        {tipo:  "VR",  eng:  "WORK/LABOR/TOIL",  esp:  "LABORAR/TRABAJAR"},
+        {tipo:  "VR",  eng:  "RIPEN",  esp:  "MADURAR"},
+        {tipo:  "VR",  eng:  "RIPEN/MATURE",  esp:  "MADURAR"},
+        {tipo:  "VR",  eng:  "ROLL/CURL/WAD",  esp:  "RULO"},
+        {tipo:  "VR",  eng:  "DEFINE",  esp:  "DEFINIR"},
+        {tipo:  "VR",  eng:  "BLESS",  esp:  "BENDECIR"},
+        {tipo:  "VR",  eng:  "COINCIDE",  esp:  "COINCIDIR"},
+        {tipo:  "VR",  eng:  "REMOVE",  esp:  "QUITAR / REMOVER"},
+        {tipo:  "VR",  eng:  "SUBTRACT",  esp:  "RESTAR"},
+        {tipo:  "VR",  eng:  "SNATCH",  esp:  "ARREBATAR"},
 
+    ],
+    VR14: [
+
+        {tipo:  "VR",  eng:  "DODGE",  esp:  "ESQUIVAR"},
+        {tipo:  "VR",  eng:  "EVADE",  esp:  "EVADIR"},
+        {tipo:  "VR",  eng:  "SIMULATE",  esp:  "SIMULAR"},
+        {tipo:  "VR",  eng:  "PRETEND",  esp:  "FINGIR"},
+        {tipo:  "VR",  eng:  "DISDAIN",  esp:  "DESDEÑAR"},
+        {tipo:  "VR",  eng:  "IGNORE",  esp:  "IGNORAR"},
+        {tipo:  "VR",  eng:  "MEET",  esp:  "ENCONTRARSE"},
+        {tipo:  "VR",  eng:  "HIT",  esp:  "DAR/ATINAR"},
+        {tipo:  "VR",  eng:  "RELEASE",  esp:  "LIBERAR"},
+        {tipo:  "VR",  eng:  "TOLL",  esp:  "PEAJE/DOBLAR/CAMPANAS/COSTE"},
+        {tipo:  "VR",  eng:  "OWN",  esp:  "POSEER/PROPIO/HUMILLAR"},
 
     ]
 };
@@ -715,14 +754,13 @@ window.sustantivos_S = {
         { tipo: "S", eng: "METAL", esp: "METAL" },
         { tipo: "S", eng: "STONE", esp: "PIEDRA" },
         { tipo: "S", eng: "BRICK", esp: "LADRILLO" },
-        { tipo: "S", eng: "WALL", esp: "PARED/MURO" },
+        { tipo: "S", eng: "WALL", esp: "PARED" },
         { tipo: "S", eng: "ROOF", esp: "TECHO" },
-        { tipo: "S", eng: "FLOOR", esp: "SUELO/PISO" },
         { tipo: "S", eng: "STAIRS", esp: "ESCALERAS" },
         { tipo: "S", eng: "PAINT", esp: "PINTURA" },
-        { tipo: "S", eng: "BRUSH", esp: "PINCEL/BROCHA" },
+        { tipo: "S", eng: "BRUSH", esp: "PINCEL" },
         { tipo: "S", eng: "ROPE", esp: "CUERDA" },
-        { tipo: "S", eng: "WIRE", esp: "ALAMBRE/CABLE" },
+        { tipo: "S", eng: "WIRE", esp: "ALAMBRE" },
         {tipo: "S", eng: "PARTY", esp: "FIESTA"},
     ],
     S10: [
@@ -766,7 +804,6 @@ window.sustantivos_S = {
         { tipo: "S", eng: "SEED", esp: "SEMILLA" },
         { tipo: "S", eng: "ROOT", esp: "RAÍZ" },
         { tipo: "S", eng: "LEAF", esp: "HOJA (PLANTA)" },
-        { tipo: "S", eng: "GROUND", esp: "TIERRA/SUELO (NATURALEZA)" },
         {tipo: "S", eng: "MONEY", esp: "DINERO"},
     ],
     S12: [
@@ -812,7 +849,7 @@ window.sustantivos_SS = {
         { tipo: "S", eng: "BACKPACK", esp: "MOCHILA" },
         { tipo: "S", eng: "DEGREE", esp: "TÍTULO/DIPLOMA" },
         { tipo: "S", eng: "KNOWLEDGE", esp: "CONOCIMIENTO" },
-        { tipo: "S", eng: "SKILL", esp: "HABILIDAD" },
+        { tipo: "S", eng: "SKILL", esp: "HABILIDAD/TINO" },
         { tipo: "S", eng: "WORLD", esp: "MUNDO" },
         { tipo: "S", eng: "PEOPLE", esp: "GENTE" },
         { tipo: "S", eng: "POWER", esp: "PODER" },
@@ -1010,6 +1047,12 @@ window.sustantivos_SS = {
     ],
     SS10: [
 
+        {tipo:  "SS",  eng:  "SYMBOLIC",  esp:  "SYMBOLICO"},
+        {tipo:  "SS",  eng:  "BACK / BACKWARD",  esp:  "ATRAS"},
+        {tipo:  "SS",  eng:  "AGO",  esp:  "ATRÁS TIEMPO"},
+        {tipo:  "SS",  eng:  "NORMAL / ORDINARY",  esp:  "NORMAL"},
+        {tipo:  "S",  eng:  "ERA/EPOCH",  esp:  "ÉPOCA"},
+        {tipo:  "S",  eng:  "OPINION",  esp:  "OPINIÓN"},
         
     ]
 };
@@ -1393,7 +1436,8 @@ window.lenguajeFormal_LF = {
         {tipo:  "LF",  eng:  "QUICK FUSE",  esp:  "MECHA RÁPIDA"},
         {tipo:  "LF",  eng:  "I DON'T CARE",  esp:  "ME DA IGUAL"},
         {tipo:  "LF",  eng:  "BE WORTH",  esp:  "VALER / MERECER LA PENA"},
-
+        {tipo:  "LI",  eng:  "BE LEFT",  esp:  "QUEDAR/RESTAR"},
+        {tipo:  "LI",  eng:  "WOULD LIKE",  esp:  "CORTESÍA/QUERÍA"},
     ],
 };
 
