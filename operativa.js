@@ -6,7 +6,7 @@ let modoJuego = '';
 let indicePreguntaActual = 0; 
 let preguntasFiltradas = [];
 
-const categoriasDB = ["window.verbosIrregulares_VI", "window.verbosRegulares_VR", "window.sustantivos_S", "window.adjetivos_A", "window.lenguajeInformal_LI", "window.lenguajeFormal_LF"];
+const categoriasDB = ["window.verbosIrregulares_VI", "window.verbosRegulares_VR", "window.sustantivos_S", "window.sustantivos_SS", "window.adjetivos_A", "window.lenguajeInformal_LI", "window.lenguajeFormal_LF"];
 
 categoriasDB.forEach(cat => {
     const backup = localStorage.getItem(cat);
@@ -318,7 +318,7 @@ function prepararDiccionario() {
             if (item.esp && item.eng) {
                 info.esp = item.esp;
                 info.eng = item.eng;
-            } else if (item.p && item.r && item.o) {
+            } else if (item.p && item.r && Array.isArray(item.o)) {
                 info.esp = item.p.replace(/¿Cómo se dice | en ingles\?| ¿Cual es la palabra correcta de: |\?|:/gi, "").trim();
                 const correcta = item.o.find(opt => opt.startsWith(item.r)); 
                 info.eng = correcta ? correcta.slice(1).trim() : ""; 
@@ -333,7 +333,7 @@ function prepararDiccionario() {
 function buscarEnDiccionario() {
     const input = document.getElementById("cajaBusqueda");
     const mensaje = document.getElementById("mensajeResultado");
-
+    
     if (!input || !mensaje) return;
 
     const consulta = input.value.toLowerCase().trim();
@@ -347,16 +347,13 @@ function buscarEnDiccionario() {
         return;
     }
 
-    // Si por alguna razón el diccionario está vacío, lo llenamos
-    if (diccionarioGlobal.length === 0) {
-        prepararDiccionario();
-    }
-
     temporizadorBusqueda = setTimeout(() => {
-        const encontrado = diccionarioGlobal.find(item => 
-            item.esp.toLowerCase() === (consulta) || 
-            item.eng.toLowerCase() === (consulta)
-        );
+        const encontrado = diccionarioGlobal.find(item => {
+            const esp = item.esp ? item.esp.toLowerCase() : "";
+            const eng = item.eng ? item.eng.toLowerCase() : "";
+            // Esto permite que "conseguir" encuentre "CONSEGUIR/LOGRAR"
+            return esp.includes(consulta) || eng.includes(consulta);
+        });
 
         if (encontrado) {
             mensaje.innerHTML = `
@@ -369,7 +366,6 @@ function buscarEnDiccionario() {
                 </div>`;
             
                 decir(encontrado.eng);
-                
             if (typeof pronunciar === "function") pronunciar(encontrado.eng);
 
             // BORRADO AUTOMÁTICO EN 7 SEGUNDOS
@@ -732,7 +728,4 @@ window.addEventListener('pointerdown', function(event) {
     // Aquí pones lo que quieres que pase cuando toquen la pantalla
     console.log("¡Pantalla tocada en la posición!", event.clientX, event.clientY);
     
-    // Si tu juego tiene una función de disparar o saltar, llámala aquí:
-    // saltar(); 
 });
-
